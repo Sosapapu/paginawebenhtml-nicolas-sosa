@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>YU-GI-OH Cartas</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        color: #333;
+        background-color: #f8f8f8;
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 32px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      header nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+
+      header nav ul li {
+        margin-left: 20px;
+      }
+
+      header nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition: background-color 0.2s ease;
+      }
+
+      header nav ul li a:hover {
+        background-color: #fff;
+        color: #333;
+      }
+      main {
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      main h2 {
+        margin: 0;
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      main p {
+        margin: 0;
+        line-height: 1.5;
+      }
+
+      main ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      main ul li {
+        width: calc(33.33% - 20px);
+        margin-bottom: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease;
+      }
+
+      main ul li:hover {
+        transform: translateY(-5px);
+      }
+
+      main ul li img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      main ul li p {
+        margin: 10px 0;
+        padding: 0 10px;
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+      }
+
+      main ul li p.price {
+        font-size: 24px;
+        font-weight: 700;
+      }
+      form {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      form label {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 18px;
+        font-weight: 700;
+      }
+
+      form input[type="text"],
+      form input[type="email"],
+      form textarea {
+        width: 100%;
+        padding : 10px;
+      margin-bottom: 20px;
+       border: none;
+       border-radius: 5px;
+      font-size: 16px;
+      font-family: 'Montserrat', sans-serif;
+      color: #333;
+      background-color: #fff;
+     }
+
+    form textarea {
+     resize: vertical;
+     height: 150px;
+     }
+
+    form input[type="submit"] {
+     display: block;
+        margin: 0 auto;
+     padding: 10px 20px;
+     border: none;
+      border-radius: 5px;
+        font-size: 18px;
+     font-weight: 700;
+      text-transform: uppercase;
+      color: #fff;
+     background-color: #333;
+     cursor: pointer;
+     transition: background-color 0.2s ease;
+     }
+
+     form input[type="submit"]:hover {
+       background-color: #fff;
+       color: #333;
+     }
+     footer {
+       background-color: #333;
+       color: #fff;
+       padding: 20px;
+       text-align: center;
+      }
+
+    footer p {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+      transition: color 0.2s ease;
+    }
+
+    footer a:hover {
+       color: #fff;
+      }
+    </style>
+      </head>
+      <body>
+        <header>
+          <h1>YU-GI-OH</h1>
+          <nav>
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Productos</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </nav>
+        </header>
+<main>
+    <section id="inicio">
+      <h2>Bienvenido a mi sitio web</h2>
+      <p>Pagina oficial de venta de cartas de Yu-Gi-Oh.</p>
+    </section>
+      <section id="productos">
+      <h2>Nuestros productos</h2>
+      <ul>
+        <li>
+          <img src="producto1.jpg" alt="Producto 1">
+          <p>Yu Gi Oh Structure Deck Beware Of The Traptrix</p>
+          <p class="price">$9999</p>
+        </li>
+        <li>
+          <img src="producto2.jpg" alt="Producto 2">
+          <p> Yugioh Booster X 9 Cartas - Blazing Vortex </p>
+          <p class="price">$1890</p>
+        </li>
+        <li>
+          <img src="producto3.jpg" alt="Producto 3">
+          <p>Yugioh Maximum Gold - El Dorado 2021</p>
+          <p class="price">$18990</p>
+        </li>
+        <li>
+          <img src="producto4.jpg" alt="Producto 4">
+          <p>Yugioh Mazo - Structure Deck - Saga Of Blue Eyes Withe Dragon</p>
+          <p class="price">$6990</p>
+        </li>
+        <li>
+          <img src="producto5.jpg" alt="Producto 5">
+          <p>Yugioh - Hidden Arsenal: Chapter 1</p>
+          <p class ="price">$18.00</p>
+        </li>
+        <li>
+        <img src="producto6.jpg" alt="Producto 6">
+        <p>Yugioh Booster 9 Cartas - Furia De Relampagos</p>
+        <p class="price">$1590</p>
+        </li>
+        </ul>
+        </section>
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Mensaje:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+</main>
+
+<footer>
+</footer>
+</body>
+</html>
